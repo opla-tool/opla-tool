@@ -1,0 +1,5 @@
+## YAML Template.
+---
+fontSize: 13
+edChartType: line
+saveChartsAsPng: true

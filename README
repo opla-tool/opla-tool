@@ -1,0 +1,2 @@
+- Para usar a função de hypervolume antes deve-se dar premissão de exeçuão para o arquivo binário que se encontra dentro da pasta opltatool/bins/. Para fazer isso execute:
+sudo chmod +X hv

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="__hjjkIzaEeO6Yt6TRR4QNg" name="relationships" metaclassReference="_CVttQIzbEeO6Yt6TRR4QNg">
+  <eAnnotations xmi:id="_FPunUYzbEeO6Yt6TRR4QNg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_ZXU80I9OEeO5S8PTmh49hw" name="relationships" nsURI="http:///schemas/relationships/_ZXR5gI9OEeO5S8PTmh49hw/2" nsPrefix="relationships">
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_ZXVj4I9OEeO5S8PTmh49hw" name="create">
+        <eAnnotations xmi:id="_ZXVj4Y9OEeO5S8PTmh49hw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_AbOWgIzbEeO6Yt6TRR4QNg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ZXVj4o9OEeO5S8PTmh49hw" name="base_Relationship" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Relationship"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_HfawAYzxEeO6Yt6TRR4QNg" name="relationships" nsURI="http:///schemas/relationships/_HfawAIzxEeO6Yt6TRR4QNg/1" nsPrefix="relationships">
+      <eAnnotations xmi:id="_HfbXEYzxEeO6Yt6TRR4QNg" source="PapyrusVersion">
+        <details xmi:id="_HfbXEozxEeO6Yt6TRR4QNg" key="Version" value="0.0.2"/>
+        <details xmi:id="_HfbXE4zxEeO6Yt6TRR4QNg" key="Comment" value=""/>
+        <details xmi:id="_HfbXFIzxEeO6Yt6TRR4QNg" key="Copyright" value=""/>
+        <details xmi:id="_HfbXFYzxEeO6Yt6TRR4QNg" key="Date" value="2014-02-03"/>
+        <details xmi:id="_HfbXFozxEeO6Yt6TRR4QNg" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_HfawAozxEeO6Yt6TRR4QNg" name="create">
+        <eAnnotations xmi:id="_HfawA4zxEeO6Yt6TRR4QNg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_AbOWgIzbEeO6Yt6TRR4QNg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_HfawBIzxEeO6Yt6TRR4QNg" name="base_Relationship" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Relationship"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_FPunUozbEeO6Yt6TRR4QNg" name="profile" nsURI="http:///schemas/profile/_FPunUIzbEeO6Yt6TRR4QNg/0" nsPrefix="profile">
+      <eAnnotations xmi:id="_FPvOYYzbEeO6Yt6TRR4QNg" source="PapyrusVersion">
+        <details xmi:id="_FPvOYozbEeO6Yt6TRR4QNg" key="Version" value="0.0.1"/>
+        <details xmi:id="_FPvOY4zbEeO6Yt6TRR4QNg" key="Comment" value=""/>
+        <details xmi:id="_FPvOZIzbEeO6Yt6TRR4QNg" key="Copyright" value=""/>
+        <details xmi:id="_FPvOZYzbEeO6Yt6TRR4QNg" key="Date" value="2014-02-03"/>
+        <details xmi:id="_FPvOZozbEeO6Yt6TRR4QNg" key="Author" value="Edipo Luis Federle"/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_FPunU4zbEeO6Yt6TRR4QNg" name="create">
+        <eAnnotations xmi:id="_FPunVIzbEeO6Yt6TRR4QNg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_AbOWgIzbEeO6Yt6TRR4QNg"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_FPunVYzbEeO6Yt6TRR4QNg" name="base_Relationship" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Relationship"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:id="_CVttQIzbEeO6Yt6TRR4QNg" alias="Relationship">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Relationship"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_AbOWgIzbEeO6Yt6TRR4QNg" name="create">
+    <ownedAttribute xmi:id="_CxKTIIzbEeO6Yt6TRR4QNg" name="base_Relationship" association="_CxKTIYzbEeO6Yt6TRR4QNg">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Relationship"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_CxKTIYzbEeO6Yt6TRR4QNg" name="E_create_Relationship1" memberEnd="_CxKTIozbEeO6Yt6TRR4QNg _CxKTIIzbEeO6Yt6TRR4QNg">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_CxKTIozbEeO6Yt6TRR4QNg" name="extension_create" type="_AbOWgIzbEeO6Yt6TRR4QNg" aggregation="composite" association="_CxKTIYzbEeO6Yt6TRR4QNg"/>
+  </packagedElement>
+</uml:Profile>
