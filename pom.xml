@@ -50,7 +50,7 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-            <groupId>opla.logs</groupId>
+            <groupId>br.ufpr.dinf.gres</groupId>
             <artifactId>loglog</artifactId>
             <version>0.0.1</version>
     </dependency>
@@ -132,6 +132,15 @@
     </plugins>
   </build>
   <repositories>
+      <repository>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </releases>
+            <id>br.ufpr.dinf.gres.opla-tool</id>
+            <name>br.ufpr.dinf.gres.opla-tool.release</name>
+            <url>http://opla-tool.zz.vc/maven2/</url>
+        </repository>
     <repository>
       <url>http://repo1.maven.org/maven2/</url>
       <id>swing-layout</id>
