@@ -113,7 +113,6 @@ public class BestSolutionBySelectedFitness {
   }
 
   private static Double getValueFitness(metrics.Metrics f) {
-      return 0.0;/*
     if(f instanceof Conventional){
       return ((Conventional) f).evaluateMACFitness();
     }else if(f instanceof FeatureDriven){
@@ -125,7 +124,7 @@ public class BestSolutionBySelectedFitness {
     }else{
       Logger.getLogger().putLog("I dont know " + f.getClass().getName());
       throw new IllegalArgumentException("I dont know " + f.getClass().getName());
-    }*/
+    }
   }
 
 
