@@ -51,6 +51,10 @@ cd opla-patterns && mvn clean && mvn install
 cd opla-core && mvn clean && mvn install
 cd opla-tool && mvn clean && mvn install
 ```
+- Open OPLA-Tool:
+```sh
+java -jar opla-tool/target/opla-tool-0.0.1-jar-with-dependencies.jar
+```
 
 
 
