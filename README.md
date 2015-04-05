@@ -44,7 +44,7 @@ git clone https://github.com/opla-tool/opla-tool.git
 ```sh
 sh architecture-representation/buildDeps.sh
 ```
-- Compile all projects:
+- Compile all projects. The sequence is important:
 ```sh
 cd architecture-representation && mvn clean && mvn install
 cd opla-patterns && mvn clean && mvn install
