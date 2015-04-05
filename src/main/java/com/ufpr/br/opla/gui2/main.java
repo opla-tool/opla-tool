@@ -411,7 +411,7 @@ public class main extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("OPLA-Tool 0.0.1");
 
-        jTabbedPane1.setFont(new java.awt.Font("Lucida Grande", 1, 18)); // NOI18N
+        //jTabbedPane1.setFont(new java.awt.Font("Lucida Grande", 1, 18)); // NOI18N
         jTabbedPane1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jTabbedPane1MouseClicked(evt);

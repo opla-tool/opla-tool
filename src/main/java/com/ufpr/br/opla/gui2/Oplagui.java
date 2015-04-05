@@ -18,7 +18,7 @@ public class Oplagui {
           database.Database.setPathToDB(UserHome.getPathToDb());
 
           gui = new main();
-          gui.setResizable(false);
+          //gui.setResizable(false);
           gui.setVisible(true);
 
         } catch (Exception ex) {
