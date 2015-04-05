@@ -4,6 +4,7 @@ import com.ufpr.br.opla.configuration.UserHome;
 import arquitetura.io.ReaderConfig;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JFrame;
 
 
 public class Oplagui {
@@ -19,6 +20,7 @@ public class Oplagui {
 
           gui = new main();
           //gui.setResizable(false);
+          gui.setExtendedState(JFrame.MAXIMIZED_BOTH);
           gui.setVisible(true);
 
         } catch (Exception ex) {
